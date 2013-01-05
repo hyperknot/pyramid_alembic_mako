@@ -1,6 +1,8 @@
 pyramid_alembic_mako
 ====================
 
+If installing from git, you must have `setuptools_git` installed, or setuptools won't realize the scaffold's template directory is part of the package.
+
 Pyramid Alembic/SQLAlchemy project scaffold using url dispatch and Mako templates
 
 Use alembic to generate revisions before you run initializedb. Example:
