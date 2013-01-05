@@ -3,6 +3,11 @@ import sys, os
 
 version = '0.1'
 
+requires = [
+    'pyramid >= 1.4',
+    'alembic >= 0.4.1',
+    ]
+
 setup(name='pyramid_alembic',
       version=version,
       description="Alembic scaffold for Pyramid 1.4",
@@ -17,9 +22,7 @@ setup(name='pyramid_alembic',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
       zip_safe=True,
-      install_requires=[
-          # -*- Extra requirements: -*-
-      ],
+      install_requires=requires,
       entry_points="""
       # -*- Entry points: -*-
       [pyramid.scaffold]
