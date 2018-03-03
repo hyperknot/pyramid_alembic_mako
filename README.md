@@ -1,7 +1,4 @@
-# This project is archived now, use [pyramid-cookiecutter-alchemy](https://github.com/Pylons/pyramid-cookiecutter-alchemy) instead
-
-
-### pyramid_alembic_mako
+# pyramid_alembic_mako
 
 If installing from git, you must have `setuptools_git` installed, or setuptools won't realize the scaffold's template directory is part of the package.
 
