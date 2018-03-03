@@ -1,3 +1,6 @@
+# This project is archived now, use pyramid-cookiecutter-alchemy instead
+https://github.com/Pylons/pyramid-cookiecutter-alchemy
+
 pyramid_alembic_mako
 ====================
 
